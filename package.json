@@ -1,0 +1,26 @@
+{
+  "name": "assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danylosokol/telegram_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danylosokol/telegram_bot/issues"
+  },
+  "homepage": "https://github.com/Danylosokol/telegram_bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16",
+    "openweather-apis": "^4.4.2"
+  }
+}
